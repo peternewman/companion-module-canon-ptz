@@ -2511,7 +2511,7 @@ module.exports = {
 				name: 'Preset Recall Mode - Toggle',
 				style: {
 					
-					text: 'TOGGLE PSET MODE\\n:$(canon-ptz:presetRecallMode)',
+					text: 'TOGGLE PSET MODE:\\n$(canon-ptz:presetRecallMode)',
 					size: '7',
 					color: '16777215',
 					bgcolor: combineRgb(0, 0, 0),
