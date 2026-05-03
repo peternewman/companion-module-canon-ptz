@@ -2818,7 +2818,7 @@ module.exports = {
 					name: 'Recall Preset ' + recall,
 					style: {
 						
-						text: 'Recall\\nPSET\\n' + recall,
+						text: 'Recall\\nPSET ' + recall + ':\\n$(canon-ptz:presetname_' + recall + ')',
 						size: '14',
 						color: '16777215',
 						bgcolor: combineRgb(0, 0, 0)
